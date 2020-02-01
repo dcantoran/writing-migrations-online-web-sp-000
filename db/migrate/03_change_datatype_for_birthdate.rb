@@ -2,7 +2,7 @@ class ChangeDataTypeForBirthdate
   
   def change 
     change_table :students do |t|
-      t.birthdate :integer
+      t.change :birthdate, :integer
     end 
   end 
   
